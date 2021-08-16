@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "generate_report": "",
     "test_on_chrome": "npx cypress run --browser chrome .\\cypress\\integration\\features\\bookstore.feature",
     "test_on_electron": "./node_modules/.bin/cypress-tags run -e TAGS=\"@regression\"",
     "gorest_test": "npx cypress run --browser electron --spec .\\cypress\\integration\\api\\gorest-api\\users.spec.js"
