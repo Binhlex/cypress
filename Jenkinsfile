@@ -8,8 +8,7 @@ pipeline {
 		}
 		stage('Install Dependencies'){
 				steps{
-					bat 'npm cache clean'
-					bat 'npm install -g npm'
+					bat 'npm install npm@latest -g'
 					bat 'npm install'
 				}
 		}
