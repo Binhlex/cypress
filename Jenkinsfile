@@ -1,8 +1,8 @@
 pipeline {
 	agent {
-	    	label {
-		    label 'EB_TEST_SEL'
-		    customWorkspace 'C:/Users/binh1/OneDrive/Desktop/Automation/Cypress/Cypress-Github-Jenkins-Pipeline-Demo'
+	    	node {
+			label 'master'
+			customWorkspace 'C:/Users/binh1/OneDrive/Desktop/Automation/Cypress/Cypress-Github-Jenkins-Pipeline-Demo'
 		}
 	}
 	
