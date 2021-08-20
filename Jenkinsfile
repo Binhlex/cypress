@@ -8,7 +8,6 @@ pipeline {
 		}
 		stage('Install Dependencies'){
 				steps{
-					bat 'npm install npm@latest -g'
 					bat 'npm install'
 				}
 		}
