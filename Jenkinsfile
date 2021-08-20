@@ -1,9 +1,8 @@
 pipeline {
 	agent {
 	    	node {
-	      	label 'my-defined-label'
-	      	customWorkspace 'C:/Users/binh1/OneDrive/Desktop/Automation/Cypress/Cypress-Github-Jenkins-Pipeline-Demo'
-	    	 }
+    	      			customWorkspace 'C:/Users/binh1/OneDrive/Desktop/Automation/Cypress/Cypress-Github-Jenkins-Pipeline-Demo'
+	    	}
 	      }
 	stages {
 		stage('Clone Git Repo'){
