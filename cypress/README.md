@@ -54,4 +54,4 @@ https://prettier.io/docs/en/install.html
 - checks that files are already formatted : npx prettier --check .
 - run formater from CI: npx prettier --write .
 
-## Add comment
+## Add from git hub
