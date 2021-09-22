@@ -4,6 +4,8 @@ let accessToken =
 Cypress.config('baseUrl', 'https://gorest.co.in')
 let userEndPoint = '/public-api/users'
 
+let testgithub = "Testing"
+
 let chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
 let string = ''
 for (var i = 0; i < 10; i++) {
