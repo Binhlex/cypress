@@ -53,3 +53,5 @@ https://prettier.io/docs/en/install.html
 - set default formatter in settings.json of VS Code(File/Preferrences/Setting)
 - checks that files are already formatted : npx prettier --check .
 - run formater from CI: npx prettier --write .
+
+## Add from git hub
